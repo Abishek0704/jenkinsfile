@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     stages {
-        stage('naveen') {
+        stage('parthi') {
             steps {
                git branch: 'main', url: 'https://github.com/Abishek0704/jenkinsfile.git'
             }
