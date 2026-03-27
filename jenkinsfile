@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     stages {
-        stage('GIT scm') {
+        stage('naveen') {
             steps {
                git branch: 'main', url: 'https://github.com/naveenleon/Naveen-s-Gaming-Application.git'
             }
