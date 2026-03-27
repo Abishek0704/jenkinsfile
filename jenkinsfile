@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('naveen') {
             steps {
-               git branch: 'main', url: 'https://github.com/naveenleon/Naveen-s-Gaming-Application.git'
+               git branch: 'main', url: 'https://github.com/Abishek0704/jenkinsfile.git'
             }
         }
     stages {
