@@ -7,6 +7,19 @@ pipeline {
                git branch: 'main', url: 'https://github.com/naveenleon/Naveen-s-Gaming-Application.git'
             }
         }
+    stages {
+        stage('GIT scm') {
+            steps {
+                sh 'ls'
+            }
+        }
+    stages {
+        stage('GIT scm') {
+            steps {
+                sh 'pwd'
+            }
+        }
+
     
     stage('COMPILE') {
             steps {
